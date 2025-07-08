@@ -18,8 +18,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-text-light-secondary dark:text-text-dark-secondary mb-6 max-w-md">
-              Empowering businesses with innovative digital solutions and
-              strategic guidance for sustainable growth in the digital age.
+              Transform Your Vision Into Impact
             </p>
             <div className="flex space-x-4">
               <a

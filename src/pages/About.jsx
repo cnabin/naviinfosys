@@ -53,8 +53,9 @@ const About = () => {
             </span>
           </h1>
           <p className="text-xl text-text-light-secondary dark:text-text-dark-secondary max-w-3xl mx-auto">
-            Empowering businesses with innovative digital solutions and
-            strategic guidance for sustainable growth.
+            We Turn Big Ideas Into Profitable Digital Realities. <br /> Your growth is not just a project. It’s our mission.
+
+
           </p>
         </motion.header>
 
@@ -68,17 +69,11 @@ const About = () => {
               </h2>
               <div className="bg-background-light dark:bg-background-light-dark rounded-2xl p-8 shadow-lg">
                 <p className="text-lg text-text-light-secondary dark:text-text-dark-secondary mb-4">
-                  Navi Infosys is a forward-thinking digital agency that combines
-                  creativity with technical expertise to deliver exceptional
-                  results. Our team of passionate professionals is dedicated to
-                  helping businesses navigate the digital landscape and achieve
-                  their goals.
+                  We’re not here to just build websites. We’re here to build momentum, growth, and digital domination.
                 </p>
                 <p className="text-lg text-text-light-secondary dark:text-text-dark-secondary">
-                  Founded with a vision to bridge the gap between traditional
-                  business practices and modern digital solutions, we've grown
-                  into a trusted partner for businesses across various
-                  industries.
+                  At Navi Infosys, we combine strategy, speed and creativity to turn your business into a lead-generating machine.<br />
+                  No fluff. No delays. Just results that move the needle.
                 </p>
               </div>
             </div>
@@ -92,16 +87,11 @@ const About = () => {
               </h2>
               <div className="bg-background-light dark:bg-background-light-dark rounded-2xl p-8 shadow-lg">
                 <p className="text-lg text-text-light-secondary dark:text-text-dark-secondary mb-4">
-                  To empower businesses with innovative digital solutions that
-                  drive growth, enhance visibility, and create lasting value. We
-                  strive to be at the forefront of digital transformation,
-                  helping our clients adapt and thrive in an ever-evolving
-                  digital landscape.
+                  Most businesses struggle to grow online because they lack the right digital tools, strategy, and reliable support.
                 </p>
                 <p className="text-lg text-text-light-secondary dark:text-text-dark-secondary">
-                  Our commitment to excellence, transparency, and continuous
-                  innovation ensures that we deliver solutions that not only
-                  meet but exceed our clients' expectations.
+                  Our mission is to solve that problem by helping business owners get the online presence, systems, and 
+                  marketing they need to attract customers, build trust, and grow faster in today’s digital world.
                 </p>
               </div>
             </div>
@@ -117,24 +107,29 @@ const About = () => {
                 <ul className="space-y-6">
                   {[
                     {
-                      title: "Expertise & Experience",
+                      title: "Speed + Quality",
                       description:
-                        "Our team brings years of experience and deep expertise in digital technologies and marketing strategies.",
+                        "We deliver fast without compromising excellence.",
                     },
                     {
-                      title: "Custom Solutions",
+                      title: "Growth-Focused",
                       description:
-                        "We create tailored solutions that align perfectly with your business goals and requirements.",
+                        "Every pixel, every line of code serves a purpose: your growth.",
                     },
                     {
-                      title: "Innovation First",
+                      title: "Real Support, Real Results",
                       description:
-                        "We stay ahead of industry trends and implement cutting-edge solutions for optimal results.",
+                        "We’re here for you before, during, and after launch.",
                     },
                     {
-                      title: "Client-Centric Approach",
+                      title: "Custom Strategy",
                       description:
-                        "Your success is our priority. We work closely with you to ensure complete satisfaction.",
+                        "No cookie-cutter stuff. Everything we build is tailored to your goals.",
+                    },
+                    {
+                      title: "Proven by Results",
+                      description:
+                        "Trusted by real businesses across Nepal and beyond.",
                     },
                   ].map((item, index) => (
                     <motion.li

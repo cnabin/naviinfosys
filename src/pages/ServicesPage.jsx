@@ -5,13 +5,11 @@ import {
   FaPenFancy,
   FaSearchengin,
   FaMobileAlt,
-  FaChartLine,
   FaCode,
   FaServer,
   FaShieldAlt,
   FaRocket,
   FaUsers,
-  FaPalette,
   FaDatabase,
 } from "react-icons/fa";
 import { SiNextdotjs, SiWordpress, SiShopify } from "react-icons/si";
@@ -37,137 +35,43 @@ const FadeInSection = ({ children, delay = 0 }) => {
   );
 };
 
-const ServiceCard = ({ icon, title, description, features, benefits }) => (
-  <div className="bg-background dark:bg-background-dark p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <div className="text-5xl text-primary mb-6">{icon}</div>
+const ServiceCard = ({ icon, title, description }) => (
+  <div className="bg-background dark:bg-background-dark p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+    <div className="flex justify-center mb-6 text-primary text-5xl">{icon}</div>
     <h3 className="text-2xl font-bold mb-4 text-text dark:text-text-dark">
       {title}
     </h3>
-    <p className="text-text-light-secondary dark:text-text-dark-secondary mb-6">
+    <p className="text-text-light-secondary dark:text-text-dark-secondary">
       {description}
     </p>
-
-    <div className="mb-6">
-      <h4 className="text-lg font-semibold mb-3 text-text dark:text-text-dark">
-        Key Features
-      </h4>
-      <ul className="space-y-2">
-        {features.map((feature, index) => (
-          <li
-            key={index}
-            className="flex items-start space-x-2 text-text-light-secondary dark:text-text-dark-secondary"
-          >
-            <span className="text-primary">•</span>
-            <span>{feature}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-
-    <div>
-      <h4 className="text-lg font-semibold mb-3 text-text dark:text-text-dark">
-        Benefits
-      </h4>
-      <ul className="space-y-2">
-        {benefits.map((benefit, index) => (
-          <li
-            key={index}
-            className="flex items-start space-x-2 text-text-light-secondary dark:text-text-dark-secondary"
-          >
-            <span className="text-primary">✓</span>
-            <span>{benefit}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
   </div>
 );
 
 const ServicesPage = () => {
   const services = [
     {
-      icon: <FaGlobe />,
-      title: "Web Development",
+      icon: <FaSearchengin />,
+      title: "Integrated Digital Marketing",
       description:
-        "Transform your digital presence with our cutting-edge web development solutions. From responsive websites to complex web applications, we deliver exceptional user experiences.",
-      features: [
-        "Custom website development using React, Next.js, and modern frameworks",
-        "E-commerce solutions with Shopify and WooCommerce integration",
-        "Content Management Systems (WordPress, Strapi, etc.)",
-        "Progressive Web Apps (PWA) development",
-        "API development and integration",
-        "Cross-browser and cross-device compatibility",
-      ],
-      benefits: [
-        "Enhanced online presence and brand visibility",
-        "Improved user engagement and conversion rates",
-        "Scalable and maintainable codebase",
-        "Optimized performance and loading speeds",
-        "Secure and reliable web applications",
-      ],
+        "Best for businesses seeking fast results. This service combines strategies to boost conversions, sales, branding, and online presence.",
+    },
+    {
+      icon: <FaGlobe />,
+      title: "Website Development Service",
+      description: "Create a professional, user-friendly website that converts visitors into customers. Our designs ensure a seamless experience and growth.",
     },
     {
       icon: <FaPenFancy />,
       title: "Content Creation",
       description:
-        "Create compelling content that resonates with your audience and drives business growth through strategic digital marketing campaigns.",
-      features: [
-        "Content strategy development and planning",
-        "Social media content creation and management",
-        "SEO-optimized blog writing and content marketing",
-        "Video production and editing",
-        "Email marketing campaigns",
-        "Social media advertising and management",
-      ],
-      benefits: [
-        "Increased brand awareness and engagement",
-        "Higher search engine rankings",
-        "Improved lead generation and conversion",
-        "Stronger brand identity and voice",
-        "Better customer relationships and loyalty",
-      ],
+        "Enhance your brand with our engaging content. We create articles and web copy that attract and retain your audience, helping you grow online.",
     },
-    {
-      icon: <FaSearchengin />,
-      title: "Digital Marketing",
-      description:
-        "Boost your online visibility and reach your target audience effectively with our comprehensive digital marketing and SEO services.",
-      features: [
-        "Search Engine Optimization (SEO)",
-        "Pay-Per-Click (PPC) advertising",
-        "Social media marketing and management",
-        "Email marketing automation",
-        "Analytics and performance tracking",
-        "Conversion rate optimization",
-      ],
-      benefits: [
-        "Higher search engine rankings",
-        "Increased website traffic and leads",
-        "Better ROI on marketing spend",
-        "Data-driven marketing decisions",
-        "Improved brand authority",
-      ],
-    },
+    
     {
       icon: <FaMobileAlt />,
-      title: "Mobile App Development",
+      title: "Search Engine Optimization",
       description:
-        "Create powerful mobile applications that engage users and drive business growth across iOS and Android platforms.",
-      features: [
-        "Native and cross-platform app development",
-        "UI/UX design and optimization",
-        "App store optimization and deployment",
-        "Push notification implementation",
-        "API integration and backend development",
-        "App analytics and performance monitoring",
-      ],
-      benefits: [
-        "Expanded market reach",
-        "Enhanced customer engagement",
-        "Improved brand loyalty",
-        "New revenue streams",
-        "Competitive advantage",
-      ],
+        "Improve your website’s visibility and attract valuable visitors with our SEO services. We use effective strategies to boost rankings and drive growth.",
     },
   ];
 
@@ -197,9 +101,8 @@ const ServicesPage = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-light-secondary dark:text-text-dark-secondary max-w-3xl mx-auto">
-                Comprehensive digital solutions to help your business thrive in
-                the digital landscape. From web development to digital
-                marketing, we've got you covered.
+                Not Just Services, Strategic Solutions That Drive Results.
+                We build systems, strategies and experiences that turn clicks into customers and ideas into impact.
               </p>
             </FadeInSection>
           </div>

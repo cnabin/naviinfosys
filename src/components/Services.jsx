@@ -24,19 +24,18 @@ const Services = () => {
   const services = [
     {
       icon: <FaGlobe className="text-4xl" />,
-      title: "Web Development",
-      description: "Custom websites using React, Next.js, WordPress, and more",
+      title: "Integrated Digital Marketing",
+      description: "Grow your leads. Maximize your ROI.",
     },
     {
       icon: <FaPenFancy className="text-4xl" />,
-      title: "Content Creation",
-      description:
-        "Engaging content that attracts, retains, and grows your business online.",
+      title: "Website Design Service",
+      description: "Websites that attract, engage and convert.",
     },
     {
       icon: <FaSearchengin className="text-4xl" />,
-      title: "Digital Marketing",
-      description: "Comprehensive digital marketing strategies for growth",
+      title: "Content Creation",
+      description: "Content that speaks, sells and builds trust.",
     },
   ];
 
@@ -56,11 +55,11 @@ const Services = () => {
           {services.map((service, index) => (
             <FadeInSection key={index} delay={index * 0.2}>
               <div className="bg-background dark:bg-background-dark p-6 rounded-xl hover:transform hover:scale-105 transition-transform duration-300">
-                <div className="text-primary mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold mb-3 text-text dark:text-text-dark">
+                <div className="flex justify-center items-center text-primary mb-4 ">{service.icon}</div>
+                <h3 className="text-xl font-semibold mb-3 text-text dark:text-text-dark text-center">
                   {service.title}
                 </h3>
-                <p className="text-text-light-secondary dark:text-text-dark-secondary">
+                <p className="text-text-light-secondary dark:text-text-dark-secondary text-center">
                   {service.description}
                 </p>
               </div>

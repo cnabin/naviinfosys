@@ -32,7 +32,8 @@ const OurWorks = () => {
         <title>Our Works | Navi Infosys</title>
         <meta
           name="description"
-          content="Discover the clients and brands that Navi Infosys has successfully partnered with. Explore stories of innovation and digital success."
+          content="We Don’t Work For Clients. We Grow With Them.
+                  From local startups to national brands, our clients trust us because we treat their goals like our own."
         />
         <link
           rel="canonical"
@@ -55,9 +56,7 @@ const OurWorks = () => {
             </span>
           </h1>
           <p className="text-xl text-text-light-secondary dark:text-text-dark-secondary max-w-3xl mx-auto">
-            Discover the amazing brands and partners we've had the privilege to
-            work with. Each collaboration tells a unique story of innovation and
-            success.
+            Trusted by forward-thinking businesses who demand excellence and results.
           </p>
         </motion.header>
 
@@ -122,8 +121,7 @@ const OurWorks = () => {
                 Want to be our next success story?
               </h2>
               <p className="text-xl text-text-light-secondary dark:text-text-dark-secondary mb-8 max-w-2xl mx-auto">
-                Let's create something amazing together. Join our growing list
-                of satisfied clients.
+                Let's create something amazing together.
               </p>
               <a
                 href="/contact"
