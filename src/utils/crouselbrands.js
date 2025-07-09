@@ -38,7 +38,7 @@ export const brands = [
     name: "Asliya Manpower",
     logoUrl:
       "https://res.cloudinary.com/dm44nnrpm/image/upload/v1744187240/asliyamanpower_nonvkp.png",
-    websiteUrl: "https://asliyamanpower.naviinfosys.com/",
+    websiteUrl: "https://asliyamanpower.com.np/",
   },
   {
   id: 14,
@@ -51,7 +51,7 @@ export const brands = [
     name: "B. International Education Consulatancy",
     logoUrl:
       "https://res.cloudinary.com/dm44nnrpm/image/upload/v1744188669/consultancy_zspnor.png",
-    websiteUrl: "https://biecconsultancy.naviinfosys.com/",
+    websiteUrl: "https://bieconsultancy.edu.np/",
   },
   {
     id: 7,
