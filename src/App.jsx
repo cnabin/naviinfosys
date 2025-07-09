@@ -32,6 +32,7 @@ import OurWorks from "./pages/OurWorks";
 import ServicesPage from "./pages/ServicesPage";
 import ContactForm from "./components/ContactForm";
 import Contactpage from "./pages/Contactpage";
+import { Analytics } from '@vercel/analytics/react';
 
 // ScrollToTop component to handle scroll position
 const ScrollToTop = () => {
@@ -108,6 +109,7 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <AnimatedRoutes />
+          <Analytics />
         </div>
       </Router>
     </ThemeProvider>
