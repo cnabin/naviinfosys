@@ -51,7 +51,7 @@ const ServicesPage = () => {
   const services = [
     {
       icon: <FaSearchengin />,
-      title: "Integrated Digital Marketing",
+      title: "360 Digital Marketing",
       description:
         "Best for businesses seeking fast results. This service combines strategies to boost conversions, sales, branding, and online presence.",
     },

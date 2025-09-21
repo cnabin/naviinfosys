@@ -24,7 +24,7 @@ const Services = () => {
   const services = [
     {
       icon: <FaGlobe className="text-4xl" />,
-      title: "Integrated Digital Marketing",
+      title: "360 Digital Marketing",
       description: "Grow your leads. Maximize your ROI.",
     },
     {
