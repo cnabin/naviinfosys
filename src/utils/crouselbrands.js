@@ -54,7 +54,7 @@ export const brands = [
   },
   {
     id: 6,
-    name: "B. International Education Consulatancy",
+    name: "BIEC Consulatancy",
     logoUrl:
       "https://res.cloudinary.com/dm44nnrpm/image/upload/v1744188669/consultancy_zspnor.png",
     websiteUrl: "https://bieconsultancy.edu.np/",
