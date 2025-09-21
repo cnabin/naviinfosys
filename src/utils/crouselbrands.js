@@ -7,7 +7,7 @@ export const brands = [
   },
   {
     id: 1,
-    name: "Dilligent International Consultancy",
+    name: "Dilligent Intl Education",
     logoUrl:
       "https://res.cloudinary.com/dm44nnrpm/image/upload/v1744186238/diligentconsultancy_ke9wax.png",
     websiteUrl: "https://diligentintedu.com/",
