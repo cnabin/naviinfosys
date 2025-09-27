@@ -2,7 +2,7 @@ export const brands = [
       {
   id: 16,
   name: "Arma Trek Nepal",
-  logoUrl: "https://armatreknepal.com/wp-content/uploads/2025/08/arma-terk-2048x290.png",
+  logoUrl: "https://armatreknepal.com/wp-content/uploads/2025/08/arma-terk-768x109.png",
   websiteUrl: "https://armatreknepal.com/"
   },
   {
@@ -22,7 +22,7 @@ export const brands = [
   {
   id: 13,
   name: "Halkhabar Media",
-  logoUrl: "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/280060445_1100958233968703_2356396032372761368_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sMaxAxRzr2sQ7kNvwEIHKh6&_nc_oc=AdlCZC6zMn3tvvjbEbe_VcrBZkO8kciE_6dHQ7DAeXnQoGxe1wuOBYJu3giWd0QYxVZMA4iU7l2q88Su7ThCWULv&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=8VfeiKSjAv31xHgNvChhtQ&oh=00_AfbRpV-cnDgYW_ToO-obbF49oSKEEPcVcbKYrgP8o2I3Xw&oe=68D49D02",
+  logoUrl: "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/280060445_1100958233968703_2356396032372761368_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Nw1P01Eol1EQ7kNvwE44awp&_nc_oc=AdkE8ph5LMnDKA2_ENSV3lywR3APHSom1TRWIFS43sgZJ_oPw5c5TzyadKIen_qjRs7pSwj1XbEN6fM4QnNDbDCA&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=19lJSJ0h0gJlqMSNucfuZQ&oh=00_Afaqx4ohgS6vWE0Zp7PTGOvZMQ_ash45jJz3Xc6WEv_-DA&oe=68DD9F42",
   websiteUrl: "http://halkhabarmedia.com/"
   },
   {
@@ -104,7 +104,13 @@ export const brands = [
   {
   id: 15,
   name: "Aayush Overseas",
-  logoUrl: "https://aayushoverseas.com.np/assets/img/logo/logo2.jpg",
+  logoUrl: "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/469909330_3950798045241126_2293239982330789396_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ltmk_sTM6pcQ7kNvwHKUq93&_nc_oc=Adm-TzNLebTMJiXMhHjMtyKgBrek0pVBFR0cqvw9iFdH3sHc1kQQms12pU9VErrnMVLOgkeEnzW-_RvQ2ELvlQoF&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=0MhDontDUHM65-ANTVowuQ&oh=00_AfY64Pstun1gZwtEPQcWmxsUip3eCcHpoY3em7oAKVoG0g&oe=68DDBB8E",
   websiteUrl: "https://aayushoverseas.com.np/"
+  },
+    {
+  id: 16,
+  name: "Uplers",
+  logoUrl: "https://images.seeklogo.com/logo-png/36/1/uplers-logo-png_seeklogo-361122.png",
+  websiteUrl: "https://www.uplers.com/"
   }
 ];
