@@ -22,7 +22,7 @@ export const brands = [
   {
   id: 13,
   name: "Halkhabar Media",
-  logoUrl: "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/280060445_1100958233968703_2356396032372761368_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Nw1P01Eol1EQ7kNvwE44awp&_nc_oc=AdkE8ph5LMnDKA2_ENSV3lywR3APHSom1TRWIFS43sgZJ_oPw5c5TzyadKIen_qjRs7pSwj1XbEN6fM4QnNDbDCA&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=19lJSJ0h0gJlqMSNucfuZQ&oh=00_Afaqx4ohgS6vWE0Zp7PTGOvZMQ_ash45jJz3Xc6WEv_-DA&oe=68DD9F42",
+  logoUrl: "https://res.cloudinary.com/dzb277fv4/image/upload/v1758979728/280060445_1100958233968703_2356396032372761368_n_kgn8kr.jpg",
   websiteUrl: "http://halkhabarmedia.com/"
   },
   {
@@ -104,13 +104,25 @@ export const brands = [
   {
   id: 15,
   name: "Aayush Overseas",
-  logoUrl: "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/469909330_3950798045241126_2293239982330789396_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ltmk_sTM6pcQ7kNvwHKUq93&_nc_oc=Adm-TzNLebTMJiXMhHjMtyKgBrek0pVBFR0cqvw9iFdH3sHc1kQQms12pU9VErrnMVLOgkeEnzW-_RvQ2ELvlQoF&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=0MhDontDUHM65-ANTVowuQ&oh=00_AfY64Pstun1gZwtEPQcWmxsUip3eCcHpoY3em7oAKVoG0g&oe=68DDBB8E",
+  logoUrl: "https://res.cloudinary.com/dzb277fv4/image/upload/v1758979727/469909330_3950798045241126_2293239982330789396_n_lecduu.jpg",
   websiteUrl: "https://aayushoverseas.com.np/"
   },
     {
   id: 16,
   name: "Uplers",
-  logoUrl: "https://images.seeklogo.com/logo-png/36/1/uplers-logo-png_seeklogo-361122.png",
+  logoUrl: "https://res.cloudinary.com/dzb277fv4/image/upload/v1758980035/Uplers_cvxthc.jpg",
   websiteUrl: "https://www.uplers.com/"
+  },
+      {
+  id: 17,
+  name: "Uni Ladder Consultancy",
+  logoUrl: "https://res.cloudinary.com/dzb277fv4/image/upload/v1758980750/Uniladder_xvums8.jpg",
+  websiteUrl: "https://www.ukuniladder.com/"
+  },
+  {
+  id: 18,
+  name: "Glam Studios",
+  logoUrl: "https://res.cloudinary.com/dzb277fv4/image/upload/v1758980178/Glam_Studios_ew9tnz.jpg",
+  websiteUrl: "https://www.glamstudios.in/"
   }
 ];
