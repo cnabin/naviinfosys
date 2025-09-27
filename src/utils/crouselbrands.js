@@ -2,7 +2,7 @@ export const brands = [
       {
   id: 16,
   name: "Arma Trek Nepal",
-  logoUrl: "https://armatreknepal.com/wp-content/uploads/2025/08/arma-terk-768x109.png",
+  logoUrl: "https://armatreknepal.com/wp-content/uploads/2025/08/arma-terk-2048x290.png",
   websiteUrl: "https://armatreknepal.com/"
   },
   {
